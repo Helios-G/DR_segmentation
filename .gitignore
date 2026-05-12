@@ -3,8 +3,8 @@ train/
 train.zip.*
 trainLabels.csv
 
-# Pretrained model (too large for git)
-model-other-default-v1/
+# Pretrained model: ship only the split 7z parts; the raw hdf5 is too large
+model-other-default-v1/cnn_model_best.hdf5
 
 # Logs and caches
 extract.log
